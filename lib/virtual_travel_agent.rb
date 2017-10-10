@@ -1,5 +1,5 @@
-require "virtual_travel_agent/version"
+require_relative "./virtual_travel_agent/version"
 
-module VirtualTravelAgent
-  # Your code goes here...
-end
+
+
+require_relative "./virtual_travel_agent/cli"

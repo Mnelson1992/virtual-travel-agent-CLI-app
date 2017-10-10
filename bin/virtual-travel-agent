@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
+require './lib/virtual_travel_agent'
 VirtualTravelAgent::CLI.new.call
