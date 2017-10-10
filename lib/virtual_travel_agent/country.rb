@@ -1,0 +1,6 @@
+class VirtualTravelAgent::Coutnry
+
+
+
+
+end 
