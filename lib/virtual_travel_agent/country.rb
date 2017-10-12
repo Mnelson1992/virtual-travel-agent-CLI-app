@@ -1,6 +1,6 @@
-class VirtualTravelAgent::Coutnry
+class VirtualTravelAgent::Country
 
 
 
 
-end 
+end

@@ -1,0 +1,6 @@
+class VirtualTravelAgent::Scraper
+
+
+
+
+end
