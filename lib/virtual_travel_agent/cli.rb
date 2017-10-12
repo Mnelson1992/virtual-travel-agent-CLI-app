@@ -7,7 +7,10 @@ class VirtualTravelAgent::CLI
   end
 
   def greeting
-    puts "Hello"
+    puts ""
+    puts "Having a tough time deciding where to go on vacation?"
+    puts "Well let us help guide your thinking with this Virtual Travel Agent gem!"
+    puts ""
   end
 
   def list
@@ -20,7 +23,7 @@ class VirtualTravelAgent::CLI
 
   def goodbye
     puts "See Ya later"
-  end 
+  end
 
 
 
