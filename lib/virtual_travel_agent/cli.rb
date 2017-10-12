@@ -18,6 +18,7 @@ class VirtualTravelAgent::CLI
     puts "Here is a list of the top 10 can't miss destinations:"
     country = VirtualTravelAgent::Country.all
     country.each do |trips|
+      sleep(1)
       puts "#{trips.name}"
     end
   end
