@@ -15,7 +15,10 @@ class VirtualTravelAgent::CLI
 
   def list
     puts "Here is a list of the top 10 can't miss destiantions:"
-    #Add iteration to this method to display countries
+    country = VirtualTravelAgent::Country.all
+    country.each do |trips|
+      puts "#{trips.name}"
+    end 
   end
 
   def menu

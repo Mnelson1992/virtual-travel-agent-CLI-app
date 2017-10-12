@@ -1,4 +1,5 @@
 class VirtualTravelAgent::Scraper
+  attr_accessor :name, :description
 
 
   def self.scraped_info
