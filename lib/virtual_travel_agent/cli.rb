@@ -15,10 +15,18 @@ class VirtualTravelAgent::CLI
 
   def list
     puts "Here is a list of the top 10 can't miss destiantions:"
+    #Add iteration to this method to display countries
   end
 
   def menu
-    puts "Please choose from the following menu"
+    input = nil
+    while input !=nil
+    puts "Please choose from the following menu:"
+    puts "If you see a country you are interested in type in it's number"
+    puts "If you would like to see a list of the countries again, type 'list'"
+    puts "If you would like to exit, simply type 'exit'"
+    end
+
   end
 
   def goodbye
