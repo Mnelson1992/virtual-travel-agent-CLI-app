@@ -1,6 +1,7 @@
 class VirtualTravelAgent::CLI
   def call
       greeting
+      VirtualTravelAgent::Scraper.scraped_info
       list
       menu
       goodbye
@@ -18,7 +19,7 @@ class VirtualTravelAgent::CLI
     country = VirtualTravelAgent::Country.all
     country.each do |trips|
       puts "#{trips.name}"
-    end 
+    end
   end
 
   def menu
@@ -33,8 +34,10 @@ class VirtualTravelAgent::CLI
 
     if input == 'list'
       list
-    elsif input == (1..10)
-      puts "Here is a basic description"
+    elsif input.to_i > 0
+      location = input.to_i-1
+      country = VirtualTravelAgent::Country.all
+      puts country[location].description
     else
       puts "please enter a number 1 - 10, or type 'list' to see the list again or 'exit' to exit."
     end
