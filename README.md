@@ -1,12 +1,12 @@
 # VirtualTravelAgent
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/virtual_travel_agent`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to The Virtual Travel Agent! With the help of this application, finding your next vacation destination has never been easier. This application provides you with the top ten travel destinations. Once you select a destination, you can read a detailed description of the destination.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+There are 2 options for installing this application
+
+1.) Add this line to your application's Gemfile:
 
 ```ruby
 gem 'virtual_travel_agent'
@@ -20,9 +20,16 @@ Or install it yourself as:
 
     $ gem install virtual_travel_agent
 
+2.) Fork and clone this repository and
+then cd into the repository.
+
+Once you have either installed the gem or forked and cloned the repository simply run the following command to get the application running:
+
+    $ bin/virtual_travel_agent
+
 ## Usage
 
-TODO: Write usage instructions here
+This application is simple to use. Simply run the above command (bin/virtual_travel_agent) and follow the menus provided.
 
 ## Development
 
@@ -38,4 +45,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/'nelso
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
