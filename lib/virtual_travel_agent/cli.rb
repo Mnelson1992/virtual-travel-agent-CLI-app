@@ -35,7 +35,7 @@ class VirtualTravelAgent::CLI
 
     if input == 'list'
       list
-    elsif input.to_i > 0
+    elsif input.to_i > 0 && input.to_i < 11
       location = input.to_i-1
       country = VirtualTravelAgent::Country.all
       puts country[location].description
