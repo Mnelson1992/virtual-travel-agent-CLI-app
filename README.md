@@ -25,11 +25,11 @@ then cd into the repository.
 
 Once you have either installed the gem or forked and cloned the repository simply run the following command to get the application running:
 
-    $ bin/virtual_travel_agent
+    $ bin/virtual-travel-agent
 
 ## Usage
 
-This application is simple to use. Simply run the above command (bin/virtual_travel_agent) and follow the menus provided.
+This application is simple to use. Simply run the above command (bin/virtual-travel-agent) and follow the menus provided.
 
 ## Development
 
